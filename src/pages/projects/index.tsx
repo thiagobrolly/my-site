@@ -6,14 +6,14 @@ export default function Projects() {
       <h2>Página em construção</h2>
 
       <section className={styles.cards}>
-        <div className={styles.card}>Projeto</div>
-        <div className={styles.card}>Projeto</div>
-        <div className={styles.card}>Projeto</div>
-        <div className={styles.card}>Projeto</div>
-        <div className={styles.card}>Projeto</div>
-        <div className={styles.card}>Projeto</div>
-        <div className={styles.card}>Projeto</div>
-        <div className={styles.card}>Projeto</div>
+        <div className={styles.card}>Em Breve</div>
+        <div className={styles.card}>Em Breve</div>
+        <div className={styles.card}>Em Breve</div>
+        <div className={styles.card}>Em Breve</div>
+        <div className={styles.card}>Em Breve</div>
+        <div className={styles.card}>Em Breve</div>
+        <div className={styles.card}>Em Breve</div>
+        <div className={styles.card}>Em Breve</div>
       </section>
     </main>
   );

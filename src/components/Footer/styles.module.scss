@@ -1,4 +1,5 @@
 .headerContainer {
+  margin-top: 20rem;
   height: 8rem;
 }
 
@@ -8,13 +9,18 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
-  .logo {
-    width: 22rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  p {
+    font-size: 1.4rem;
+
+    a {
+      cursor: pointer;
+      color: #00ff75;
+      // background-image: linear-gradient(to right, #00ff75, #0dcaf0);
+      // background-clip: text;
+      // -webkit-text-fill-color: transparent;
+    }
   }
 
   nav {
@@ -37,32 +43,12 @@
       }
 
       &.active {
-        color: #00ff75;
-        // background-image: linear-gradient(to right, #00ff75, #0dcaf0);
-        // background-clip: text;
-        // -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right, #00ff75, #0dcaf0);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-weight: bold;
       }
     }
-  }
-}
-
-.readyButton {
-  margin-left: auto;
-  height: 3rem;
-  border-radius: 3rem;
-  background: var(--blue-900);
-  border: 0;
-  padding: 0 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-weight: bold;
-  transition: filter 0.2s;
-
-  &:hover {
-    filter: brightness(1.1);
   }
 }
 
@@ -85,9 +71,5 @@
     nav {
       margin: 30px auto 0px;
     }
-  }
-
-  .readyButton {
-    display: none;
   }
 }

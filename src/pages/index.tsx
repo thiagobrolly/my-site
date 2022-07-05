@@ -86,7 +86,7 @@ export default function Home({ content, projects }: HomeProps) {
           </div>
           <div className={styles.projectsContent}>
             {projects.map((project) => (
-              <section>
+              <section key={project.slug}>
                 <div className={styles.projectsContentImg}>
                   <img src={project.thumbnail} alt={project.thumbnailAlt} />
                   <div className={styles.image__overlay}></div>
@@ -123,7 +123,6 @@ export default function Home({ content, projects }: HomeProps) {
             Em contrução
           </p>
         </div>
-        <p>©2022 - Desenvolvido por Thiago Brolly</p>
       </main>
     </>
   );

@@ -30,10 +30,10 @@ export default function Sobre({content}: ContentProps) {
             <h1>{content.title}</h1>
             <p>{content.description}</p>
 
-            <a href={content.facebook}><FaFacebook size={40} /></a>
-            <a href={content.instagram}><FaInstagram size={40} /></a>
-            <a href={content.linkedin}><FaLinkedin size={40} /></a>
-            <a href={content.youtube}><FaYoutube size={40} /></a>
+            <a href={content.facebook}><FaFacebook size={30} /></a>
+            <a href={content.instagram}><FaInstagram size={30} /></a>
+            <a href={content.linkedin}><FaLinkedin size={30} /></a>
+            <a href={content.youtube}><FaYoutube size={30} /></a>
           </section>
 
           <img src={content.banner} alt={content.title} />

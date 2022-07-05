@@ -19,6 +19,12 @@
 .card{
   background-color: aquamarine;
   height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #112240;
+  font-weight: bold;
 }
 
 @media (max-width: 1280px) {
